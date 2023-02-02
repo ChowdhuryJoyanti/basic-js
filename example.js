@@ -61,3 +61,11 @@
         var total10DaysCost = remaingDays * 300;
         var total1To20DaysCost = first10Dayscost + total10DaysCost
      }
+     else{
+        var first10Dayscost = 500 * 10;
+        var second11To20days = 300 * 10;
+        var remaingDays = myDays - 20;
+        var third21ToAnydays = remaingDays* 100;
+        var totalAbove20DaysCost = 
+            first10Dayscost + second11To20days + third21ToAnydays;
+     }
